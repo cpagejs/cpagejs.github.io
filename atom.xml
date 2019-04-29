@@ -5,11 +5,11 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-08-22T12:30:08.510Z</updated>
+  <updated>2017-08-22T12:30:08.511Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
-    <name>chenhao</name>
+    <name>MeGee</name>
     
   </author>
   
@@ -19,8 +19,8 @@
     <title>DOM操作</title>
     <link href="http://yoursite.com/2017/08/22/7%EF%BC%8CDOM%E6%93%8D%E4%BD%9C/DOM%E6%93%8D%E4%BD%9C/"/>
     <id>http://yoursite.com/2017/08/22/7，DOM操作/DOM操作/</id>
-    <published>2017-08-22T12:29:38.309Z</published>
-    <updated>2017-08-22T12:30:08.510Z</updated>
+    <published>2017-08-22T12:29:38.310Z</published>
+    <updated>2017-08-22T12:30:08.511Z</updated>
     
     <content type="html"><![CDATA[<p>Cpage.js提供建议的dom操作方式<br>es6语法<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">import &#123; Dom &#125; from &apos;cpage&apos;;</div><div class="line"></div><div class="line">Dom(&apos;body&apos;).css(&apos;width&apos;)</div></pre></td></tr></table></figure></p>
 ]]></content>
@@ -103,8 +103,8 @@
     <title>指令</title>
     <link href="http://yoursite.com/2017/08/22/5%EF%BC%8C%E6%8C%87%E4%BB%A4/%E6%8C%87%E4%BB%A4/"/>
     <id>http://yoursite.com/2017/08/22/5，指令/指令/</id>
-    <published>2017-08-22T12:02:55.302Z</published>
-    <updated>2017-08-22T12:23:02.113Z</updated>
+    <published>2017-08-22T12:02:55.303Z</published>
+    <updated>2017-08-22T12:23:02.114Z</updated>
     
     <content type="html"><![CDATA[<table>
 <thead>
@@ -224,7 +224,7 @@
     <title>属性</title>
     <link href="http://yoursite.com/2017/08/22/3%EF%BC%8C%E5%B1%9E%E6%80%A7/%E5%B1%9E%E6%80%A7/"/>
     <id>http://yoursite.com/2017/08/22/3，属性/属性/</id>
-    <published>2017-08-22T11:40:09.515Z</published>
+    <published>2017-08-22T11:40:09.516Z</published>
     <updated>2017-08-22T12:34:47.972Z</updated>
     
     <content type="html"><![CDATA[<table>
@@ -322,8 +322,8 @@
     <title>es6语法</title>
     <link href="http://yoursite.com/2017/08/21/2%EF%BC%8C%E7%BB%84%E4%BB%B6/es6%E8%AF%AD%E6%B3%95/"/>
     <id>http://yoursite.com/2017/08/21/2，组件/es6语法/</id>
-    <published>2017-08-21T14:01:41.515Z</published>
-    <updated>2017-08-23T13:00:33.169Z</updated>
+    <published>2017-08-21T14:01:41.516Z</published>
+    <updated>2017-08-23T13:00:33.170Z</updated>
     
     <content type="html"><![CDATA[<p>声明一个hello组件<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div></pre></td><td class="code"><pre><div class="line">import Cpage,  &#123; Component &#125; from &apos;cpage&apos;;</div><div class="line"></div><div class="line">export default class Hello extends Component &#123;</div><div class="line">    constructor()&#123;</div><div class="line">        super();</div><div class="line">        this.name = &apos;hello&apos;;</div><div class="line">        this.data = &#123;&#125;;</div><div class="line">        this.template = `hello`;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    render()&#123;</div><div class="line">        </div><div class="line">    &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
 <p>在根组件引用hello组件<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div></pre></td><td class="code"><pre><div class="line">import Cpage,  &#123; Component &#125; from &apos;cpage&apos;;</div><div class="line">import Hello from &apos;./hello&apos;;</div><div class="line">const html = require(&apos;./app.html&apos;);</div><div class="line"></div><div class="line">export default class App extends Component &#123;</div><div class="line">    constructor()&#123;</div><div class="line">        super();</div><div class="line">        this.name = &apos;app&apos;;</div><div class="line">        this.data = &#123;&#125;;</div><div class="line">        this.templateUrl = html;</div><div class="line">        this.components = [Hello];</div><div class="line">    &#125;</div><div class="line">    handelC(event)&#123;</div><div class="line">        this.$event.trigger(&apos;header-event&apos;, &apos;header&apos;);</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    render()&#123;</div><div class="line">        </div><div class="line">    &#125;</div><div class="line">&#125;</div><div class="line">Cpage.bootstrap(&apos;#app&apos;, App);</div></pre></td></tr></table></figure></p>
