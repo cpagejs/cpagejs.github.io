@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>使用 | think-react-store</title>
+    <meta name="generator" content="VuePress 1.5.1">
+    
+    <meta name="description" content="think-react-store 文档">
+    <link rel="preload" href="/think-react-store/assets/css/0.styles.35fc9fa8.css" as="style"><link rel="preload" href="/think-react-store/assets/js/app.73607b1a.js" as="script"><link rel="preload" href="/think-react-store/assets/js/2.2df53de2.js" as="script"><link rel="preload" href="/think-react-store/assets/js/7.d42e94c4.js" as="script"><link rel="prefetch" href="/think-react-store/assets/js/3.575225ff.js"><link rel="prefetch" href="/think-react-store/assets/js/4.d12821cd.js"><link rel="prefetch" href="/think-react-store/assets/js/5.9ed522b7.js"><link rel="prefetch" href="/think-react-store/assets/js/6.26bd768b.js">
+    <link rel="stylesheet" href="/think-react-store/assets/css/0.styles.35fc9fa8.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/think-react-store/" class="home-link router-link-active"><!----> <span class="site-name">think-react-store</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="https://github.com/cpagejs/think-react-store" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  GitHub
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="https://github.com/cpagejs/think-react-store" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  GitHub
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>指南</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/think-react-store/guide.html" class="sidebar-link">简介</a></li><li><a href="/think-react-store/use.html" aria-current="page" class="active sidebar-link">使用</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/think-react-store/use.html#_1，创建-context" class="sidebar-link">1，创建 context</a></li><li class="sidebar-sub-header"><a href="/think-react-store/use.html#_2，配置-storeprovider" class="sidebar-link">2，配置 StoreProvider</a></li><li class="sidebar-sub-header"><a href="/think-react-store/use.html#_3，使用-connect-推荐" class="sidebar-link">3，使用 connect (推荐)</a></li><li class="sidebar-sub-header"><a href="/think-react-store/use.html#_4，在-function-组件中使用" class="sidebar-link">4，在 function 组件中使用</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/think-react-store/use.html#_4-1，获取-state-数据" class="sidebar-link">4.1，获取 state 数据</a></li><li class="sidebar-sub-header"><a href="/think-react-store/use.html#_4-2，使用-dispatch" class="sidebar-link">4.2，使用 dispatch</a></li></ul></li><li class="sidebar-sub-header"><a href="/think-react-store/use.html#_5，在-class-组件中使用" class="sidebar-link">5，在 class 组件中使用</a></li><li class="sidebar-sub-header"><a href="/think-react-store/use.html#_6，中间件" class="sidebar-link">6，中间件</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/think-react-store/use.html#_6-1，新增中间件文件" class="sidebar-link">6.1，新增中间件文件</a></li><li class="sidebar-sub-header"><a href="/think-react-store/use.html#_6-2，使用中间件" class="sidebar-link">6.2，使用中间件</a></li></ul></li><li class="sidebar-sub-header"><a href="/think-react-store/use.html#_7，loading" class="sidebar-link">7，loading</a></li><li class="sidebar-sub-header"><a href="/think-react-store/use.html#_8，使用缓存（将-model-的数据缓存到-localstorage-里面）" class="sidebar-link">8，使用缓存（将 model 的数据缓存到 localStorage 里面）</a></li></ul></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="使用"><a href="#使用" class="header-anchor">#</a> 使用</h1> <h2 id="_1，创建-context"><a href="#_1，创建-context" class="header-anchor">#</a> 1，创建 context</h2> <table><thead><tr><th>属性</th> <th>含义</th></tr></thead> <tbody><tr><td>state</td> <td>state 属性</td></tr> <tr><td>methods</td> <td>方法，支持同步和异步两种写法，异步写法需要使用 async</td></tr> <tr><td>reducers</td> <td>支持同步方法</td></tr> <tr><td>effects</td> <td>支持异步方法，需要使用 async</td></tr></tbody></table> <div class="language-js extra-class"><pre class="language-js"><code><span class="token comment">// 创建 Contexts 目录</span>
+
+<span class="token comment">// user.js</span>
+<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token punctuation">{</span>
+  state<span class="token operator">:</span> <span class="token punctuation">{</span>
+    id<span class="token operator">:</span> <span class="token number">123</span><span class="token punctuation">,</span>
+    name<span class="token operator">:</span> <span class="token string">'cc'</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  reducers<span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token function">setName</span><span class="token punctuation">(</span><span class="token parameter">state<span class="token punctuation">,</span> payload</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+      <span class="token keyword">return</span> <span class="token punctuation">{</span>
+        <span class="token operator">...</span>state<span class="token punctuation">,</span>
+        <span class="token operator">...</span>payload
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  effects<span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token keyword">async</span> <span class="token function">setNameAsync</span><span class="token punctuation">(</span><span class="token parameter">dispatch<span class="token punctuation">,</span> state<span class="token punctuation">,</span> payload</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+      <span class="token keyword">await</span> <span class="token keyword">new</span> <span class="token class-name">Promise</span><span class="token punctuation">(</span><span class="token parameter">resolve</span><span class="token operator">=&gt;</span><span class="token function">setTimeout</span><span class="token punctuation">(</span>resolve<span class="token punctuation">,</span><span class="token number">1000</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+      <span class="token function">dispatch</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+        type<span class="token operator">:</span> <span class="token string">'setName'</span><span class="token punctuation">,</span>
+        payload
+      <span class="token punctuation">}</span><span class="token punctuation">)</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">// index.js 合并 context</span>
+<span class="token keyword">export</span> <span class="token punctuation">{</span> <span class="token keyword">default</span> <span class="token keyword">as</span> user <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'./user'</span>
+</code></pre></div><h2 id="_2，配置-storeprovider"><a href="#_2，配置-storeprovider" class="header-anchor">#</a> 2，配置 StoreProvider</h2> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">import</span> <span class="token punctuation">{</span> StoreProvider <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'think-react-store'</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> <span class="token operator">*</span> <span class="token keyword">as</span> store <span class="token keyword">from</span> <span class="token string">'./Contexts'</span><span class="token punctuation">;</span>
+
+ReactDOM<span class="token punctuation">.</span><span class="token function">render</span><span class="token punctuation">(</span>
+  <span class="token operator">&lt;</span>StoreProvider store<span class="token operator">=</span><span class="token punctuation">{</span>store<span class="token punctuation">}</span><span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span>App <span class="token operator">/</span><span class="token operator">&gt;</span>
+  <span class="token operator">&lt;</span><span class="token operator">/</span>StoreProvider<span class="token operator">&gt;</span><span class="token punctuation">,</span>
+mountNode<span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div><h2 id="_3，使用-connect-推荐"><a href="#_3，使用-connect-推荐" class="header-anchor">#</a> 3，使用 connect (推荐)</h2> <p>备注：使用 connect 绑定的方法返回一个 promise 对象</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">const</span> <span class="token function-variable function">mapState</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token parameter"><span class="token punctuation">{</span>user<span class="token operator">:</span><span class="token punctuation">{</span>id<span class="token punctuation">,</span> name<span class="token punctuation">}</span><span class="token punctuation">}</span></span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">(</span><span class="token punctuation">{</span>
+  id<span class="token punctuation">,</span>
+  name
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">const</span> <span class="token function-variable function">mapDispatch</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token parameter"><span class="token punctuation">{</span>user<span class="token operator">:</span><span class="token punctuation">{</span>setName<span class="token punctuation">,</span> setNameAsync<span class="token punctuation">}</span><span class="token punctuation">}</span></span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">(</span><span class="token punctuation">{</span>
+  setName<span class="token punctuation">,</span>
+  setNameAsync
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token function">connect</span><span class="token punctuation">(</span>mapState<span class="token punctuation">,</span> mapDispatch<span class="token punctuation">)</span><span class="token punctuation">(</span>DemoConnect<span class="token punctuation">)</span>
+
+<span class="token comment">// 使用</span>
+<span class="token keyword">const</span> <span class="token function-variable function">handelClick</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">=&gt;</span><span class="token punctuation">{</span>
+  props<span class="token punctuation">.</span><span class="token function">setName</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+    name<span class="token operator">:</span> <span class="token string">'john'</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span>
+  <span class="token punctuation">.</span><span class="token function">then</span><span class="token punctuation">(</span><span class="token parameter">res</span><span class="token operator">=&gt;</span><span class="token punctuation">{</span>
+    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>res<span class="token punctuation">)</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span>
+  <span class="token punctuation">.</span><span class="token function">catch</span><span class="token punctuation">(</span><span class="token parameter">err</span><span class="token operator">=&gt;</span><span class="token punctuation">{</span>
+    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>err<span class="token punctuation">)</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h2 id="_4，在-function-组件中使用"><a href="#_4，在-function-组件中使用" class="header-anchor">#</a> 4，在 function 组件中使用</h2> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">import</span> React<span class="token punctuation">,</span> <span class="token punctuation">{</span> useContext <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">&quot;react&quot;</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span> StoreContext<span class="token punctuation">,</span> useStoreHook <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'think-react-store'</span><span class="token punctuation">;</span>
+
+<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token keyword">function</span> <span class="token function">DemoFunc</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+  <span class="token keyword">const</span> <span class="token punctuation">{</span>state<span class="token punctuation">,</span> dispatch<span class="token punctuation">}</span> <span class="token operator">=</span> <span class="token function">useContext</span><span class="token punctuation">(</span>StoreContext<span class="token punctuation">)</span>
+  <span class="token keyword">const</span> <span class="token punctuation">{</span>user<span class="token operator">:</span><span class="token punctuation">{</span>id<span class="token punctuation">,</span> name<span class="token punctuation">,</span> setName<span class="token punctuation">,</span> setNameAsync<span class="token punctuation">}</span><span class="token punctuation">}</span> <span class="token operator">=</span> <span class="token function">useStoreHook</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+
+  <span class="token keyword">const</span> <span class="token function-variable function">handleName</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">=&gt;</span><span class="token punctuation">{</span>
+    <span class="token function">setName</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+      name<span class="token operator">:</span> <span class="token string">'同步修改'</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token keyword">const</span> <span class="token function-variable function">handleNameAsync</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">=&gt;</span><span class="token punctuation">{</span>
+    <span class="token function">setNameAsync</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+      name<span class="token operator">:</span> <span class="token string">'异步修改'</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token keyword">return</span> <span class="token punctuation">(</span>
+    <span class="token operator">&lt;</span>div<span class="token operator">&gt;</span>
+      <span class="token operator">&lt;</span>h1<span class="token operator">&gt;</span><span class="token keyword">function</span> 类型组件<span class="token operator">&lt;</span><span class="token operator">/</span>h1<span class="token operator">&gt;</span>
+      <span class="token operator">&lt;</span>p<span class="token operator">&gt;</span>用户：name<span class="token operator">--</span><span class="token punctuation">{</span>name<span class="token punctuation">}</span>   id<span class="token operator">--</span><span class="token punctuation">{</span>state<span class="token punctuation">.</span>user<span class="token punctuation">.</span>id<span class="token punctuation">}</span><span class="token operator">&lt;</span><span class="token operator">/</span>p<span class="token operator">&gt;</span>
+      <span class="token operator">&lt;</span>p<span class="token operator">&gt;</span><span class="token operator">&lt;</span>button onClick<span class="token operator">=</span><span class="token punctuation">{</span>handleName<span class="token punctuation">}</span><span class="token operator">&gt;</span>修改用户<span class="token operator">&lt;</span><span class="token operator">/</span>button<span class="token operator">&gt;</span><span class="token operator">&lt;</span><span class="token operator">/</span>p<span class="token operator">&gt;</span>
+      <span class="token operator">&lt;</span>p<span class="token operator">&gt;</span><span class="token operator">&lt;</span>button onClick<span class="token operator">=</span><span class="token punctuation">{</span>handleNameAsync<span class="token punctuation">}</span><span class="token operator">&gt;</span>异步修改用户<span class="token operator">&lt;</span><span class="token operator">/</span>button<span class="token operator">&gt;</span><span class="token operator">&lt;</span><span class="token operator">/</span>p<span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">&gt;</span>
+  <span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>备注：function 组件中使用 think-react-store ，有多种调用方法。</p> <h3 id="_4-1，获取-state-数据"><a href="#_4-1，获取-state-数据" class="header-anchor">#</a> 4.1，获取 state 数据</h3> <p>使用 useStoreHook（推荐使用）</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">import</span> React<span class="token punctuation">,</span> <span class="token punctuation">{</span> useContext <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">&quot;react&quot;</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span> useStoreHook <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'think-react-store'</span><span class="token punctuation">;</span>
+
+<span class="token keyword">const</span> <span class="token punctuation">{</span>user<span class="token operator">:</span><span class="token punctuation">{</span>id<span class="token punctuation">,</span> name<span class="token punctuation">,</span> setName<span class="token punctuation">,</span> setNameAsync<span class="token punctuation">}</span><span class="token punctuation">}</span> <span class="token operator">=</span> <span class="token function">useStoreHook</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+
+<span class="token operator">&lt;</span>div<span class="token operator">&gt;</span>用户：<span class="token punctuation">{</span>name<span class="token punctuation">}</span><span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">&gt;</span>
+</code></pre></div><p>使用 useContext + StoreContext</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">import</span> React<span class="token punctuation">,</span> <span class="token punctuation">{</span> useContext <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">&quot;react&quot;</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span> StoreContext <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'think-react-store'</span><span class="token punctuation">;</span>
+
+<span class="token comment">// state 指的是所有 context 的 state</span>
+<span class="token keyword">const</span> <span class="token punctuation">{</span>state<span class="token punctuation">,</span> dispatch<span class="token punctuation">}</span> <span class="token operator">=</span> <span class="token function">useContext</span><span class="token punctuation">(</span>StoreContext<span class="token punctuation">)</span>
+
+<span class="token operator">&lt;</span>div<span class="token operator">&gt;</span>用户：<span class="token punctuation">{</span>state<span class="token punctuation">.</span>user<span class="token punctuation">.</span>id<span class="token punctuation">}</span><span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">&gt;</span>
+</code></pre></div><p>使用 useStateHook，useStateHook 接受一个参数，如果不传则返回所有 state，传递对应的 key 则返回对应的 state</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">import</span> <span class="token punctuation">{</span> useStateHook <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'think-react-store'</span><span class="token punctuation">;</span>
+
+<span class="token comment">// 获取所有的</span>
+<span class="token keyword">const</span> states <span class="token operator">=</span> <span class="token function">useStateHook</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+
+<span class="token comment">// 获取单个的</span>
+<span class="token keyword">const</span> userState <span class="token operator">=</span> <span class="token function">useStateHook</span><span class="token punctuation">(</span><span class="token string">'user'</span><span class="token punctuation">)</span>
+</code></pre></div><h3 id="_4-2，使用-dispatch"><a href="#_4-2，使用-dispatch" class="header-anchor">#</a> 4.2，使用 dispatch</h3> <p>使用 useStoreHook（推荐使用），同步和异步的调用方式一样，只需要传递参数即可</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">import</span> <span class="token punctuation">{</span> useStoreHook <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'think-react-store'</span><span class="token punctuation">;</span>
+
+<span class="token keyword">const</span> <span class="token punctuation">{</span>user<span class="token operator">:</span><span class="token punctuation">{</span>id<span class="token punctuation">,</span> name<span class="token punctuation">,</span> setName<span class="token punctuation">,</span> setNameAsync<span class="token punctuation">}</span><span class="token punctuation">}</span> <span class="token operator">=</span> <span class="token function">useStoreHook</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+
+<span class="token function">getUser</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  name<span class="token operator">:</span> <span class="token string">'异步修改'</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre></div><p>使用 useContext + StoreContext，如果是异步调用参数需要为函数</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">import</span> React<span class="token punctuation">,</span> <span class="token punctuation">{</span> useContext <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">&quot;react&quot;</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span> StoreContext <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'think-react-store'</span><span class="token punctuation">;</span>
+
+<span class="token comment">// state 指的是所有 context 的 state</span>
+<span class="token keyword">const</span> <span class="token punctuation">{</span>state<span class="token punctuation">,</span> dispatch<span class="token punctuation">}</span> <span class="token operator">=</span> <span class="token function">useContext</span><span class="token punctuation">(</span>StoreContext<span class="token punctuation">)</span>
+
+<span class="token comment">// 同步</span>
+<span class="token function">dispatch</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  key<span class="token operator">:</span> <span class="token string">'user'</span><span class="token punctuation">,</span>
+  type<span class="token operator">:</span> <span class="token string">'setName'</span><span class="token punctuation">,</span>
+  payload<span class="token operator">:</span> <span class="token punctuation">{</span>
+    name<span class="token operator">:</span> <span class="token string">'同步数据'</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+<span class="token comment">// 异步</span>
+<span class="token function">dispatch</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">=&gt;</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  key<span class="token operator">:</span> <span class="token string">'user'</span><span class="token punctuation">,</span>
+  type<span class="token operator">:</span> <span class="token string">'setNameAsync'</span><span class="token punctuation">,</span>
+  payload<span class="token operator">:</span> <span class="token punctuation">{</span>
+    name<span class="token operator">:</span> <span class="token string">'异步修改'</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+</code></pre></div><p>使用 useDispatchHook，useDispatchHook 接受一个参数，如果不传那么在使用 dispatch 使用需要携带上。如果是异步调用参数需要为函数</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">import</span> <span class="token punctuation">{</span> useDispatchHook <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'think-react-store'</span><span class="token punctuation">;</span>
+
+<span class="token comment">// 不带参数 key</span>
+<span class="token keyword">const</span> dispatchs <span class="token operator">=</span> <span class="token function">useDispatchHook</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token function">dispatchs</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  key<span class="token operator">:</span> <span class="token string">'user'</span><span class="token punctuation">,</span>
+  type<span class="token operator">:</span> <span class="token string">'setName'</span><span class="token punctuation">,</span>
+  payload<span class="token operator">:</span> <span class="token punctuation">{</span>
+    name<span class="token operator">:</span> <span class="token string">'同步数据'</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+<span class="token comment">// 参数 key</span>
+<span class="token keyword">const</span> dispatchs <span class="token operator">=</span> <span class="token function">useDispatchHook</span><span class="token punctuation">(</span><span class="token string">'user'</span><span class="token punctuation">)</span>
+<span class="token function">dispatchs</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  type<span class="token operator">:</span> <span class="token string">'setName'</span><span class="token punctuation">,</span>
+  payload<span class="token operator">:</span> <span class="token punctuation">{</span>
+    name<span class="token operator">:</span> <span class="token string">'同步数据'</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+<span class="token comment">// 异步</span>
+<span class="token function">dispatchs</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">=&gt;</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  type<span class="token operator">:</span> <span class="token string">'setNameAsync'</span><span class="token punctuation">,</span>
+  payload<span class="token operator">:</span> <span class="token punctuation">{</span>
+    name<span class="token operator">:</span> <span class="token string">'异步修改'</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+</code></pre></div><h2 id="_5，在-class-组件中使用"><a href="#_5，在-class-组件中使用" class="header-anchor">#</a> 5，在 class 组件中使用</h2> <p>在 class 组件中使用 dispatch 调用异步函数时候，this.context.dispatch 里面的参数是函数；使用 dispatch 调用同步函数时候，this.context.dispatch 里面的参数是函数是 json 对象。</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">import</span> React <span class="token keyword">from</span> <span class="token string">&quot;react&quot;</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span> StoreContext <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'think-react-store'</span><span class="token punctuation">;</span>
+
+<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token keyword">class</span> <span class="token class-name">DemoClass</span> <span class="token keyword">extends</span> <span class="token class-name">React<span class="token punctuation">.</span>Component</span> <span class="token punctuation">{</span>
+  <span class="token keyword">static</span> contextType <span class="token operator">=</span> StoreContext<span class="token punctuation">;</span>
+
+  <span class="token function-variable function">handleAuth</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">=&gt;</span><span class="token punctuation">{</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span>context<span class="token punctuation">.</span><span class="token function">dispatch</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+      key<span class="token operator">:</span> <span class="token string">'user'</span><span class="token punctuation">,</span>
+      type<span class="token operator">:</span> <span class="token string">'setName'</span><span class="token punctuation">,</span>
+      payload<span class="token operator">:</span> <span class="token punctuation">{</span>
+        name<span class="token operator">:</span> <span class="token string">'同步数据'</span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token function-variable function">handleAuthAsync</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">=&gt;</span><span class="token punctuation">{</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span>context<span class="token punctuation">.</span><span class="token function">dispatch</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">=&gt;</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+      key<span class="token operator">:</span> <span class="token string">'user'</span><span class="token punctuation">,</span>
+      type<span class="token operator">:</span> <span class="token string">'setNameAsync'</span><span class="token punctuation">,</span>
+      payload<span class="token operator">:</span> <span class="token punctuation">{</span>
+        name<span class="token operator">:</span> <span class="token string">'异步数据'</span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token function">render</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> <span class="token operator">&lt;</span>div style<span class="token operator">=</span><span class="token punctuation">{</span><span class="token punctuation">{</span>border<span class="token operator">:</span> <span class="token string">'1px solid #9c9c9c'</span><span class="token punctuation">}</span><span class="token punctuation">}</span><span class="token operator">&gt;</span>
+      <span class="token operator">&lt;</span>h1<span class="token operator">&gt;</span><span class="token keyword">class</span> 类型组件<span class="token operator">&lt;</span><span class="token operator">/</span>h1<span class="token operator">&gt;</span>
+      <span class="token operator">&lt;</span>p<span class="token operator">&gt;</span>用户：<span class="token punctuation">{</span><span class="token keyword">this</span><span class="token punctuation">.</span>context<span class="token punctuation">.</span>state<span class="token punctuation">.</span>user<span class="token punctuation">.</span>name<span class="token punctuation">}</span><span class="token operator">&lt;</span><span class="token operator">/</span>p<span class="token operator">&gt;</span>
+      <span class="token operator">&lt;</span>p<span class="token operator">&gt;</span><span class="token operator">&lt;</span>button onClick<span class="token operator">=</span><span class="token punctuation">{</span><span class="token keyword">this</span><span class="token punctuation">.</span>handleAuth<span class="token punctuation">}</span><span class="token operator">&gt;</span>修改用户<span class="token operator">&lt;</span><span class="token operator">/</span>button<span class="token operator">&gt;</span><span class="token operator">&lt;</span><span class="token operator">/</span>p<span class="token operator">&gt;</span>
+      <span class="token operator">&lt;</span>p<span class="token operator">&gt;</span><span class="token operator">&lt;</span>button onClick<span class="token operator">=</span><span class="token punctuation">{</span><span class="token keyword">this</span><span class="token punctuation">.</span>handleAuthAsync<span class="token punctuation">}</span><span class="token operator">&gt;</span>异步修改用户<span class="token operator">&lt;</span><span class="token operator">/</span>button<span class="token operator">&gt;</span><span class="token operator">&lt;</span><span class="token operator">/</span>p<span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">&gt;</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h2 id="_6，中间件"><a href="#_6，中间件" class="header-anchor">#</a> 6，中间件</h2> <h3 id="_6-1，新增中间件文件"><a href="#_6-1，新增中间件文件" class="header-anchor">#</a> 6.1，新增中间件文件</h3> <div class="language-js extra-class"><pre class="language-js"><code><span class="token comment">/**
+ * 中间件参数
+ * @param {Object} store store
+ * @param {Object} prevState 更新前的state值
+ * @param {Object} nextState 更新后的state值
+ * @param {Object} action 派发的action
+ */</span>
+<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token keyword">function</span> <span class="token function">log</span><span class="token punctuation">(</span><span class="token parameter">store<span class="token punctuation">,</span> prevState<span class="token punctuation">,</span> nextState<span class="token punctuation">,</span> action</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+  console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'----日志log-----'</span><span class="token punctuation">)</span>
+  console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">修改前：</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span><span class="token constant">JSON</span><span class="token punctuation">.</span><span class="token function">stringify</span><span class="token punctuation">(</span>prevState<span class="token punctuation">)</span><span class="token interpolation-punctuation punctuation">}</span></span><span class="token template-punctuation string">`</span></span><span class="token punctuation">)</span>
+  console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">修改后：</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span><span class="token constant">JSON</span><span class="token punctuation">.</span><span class="token function">stringify</span><span class="token punctuation">(</span>nextState<span class="token punctuation">)</span><span class="token interpolation-punctuation punctuation">}</span></span><span class="token template-punctuation string">`</span></span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h3 id="_6-2，使用中间件"><a href="#_6-2，使用中间件" class="header-anchor">#</a> 6.2，使用中间件</h3> <p>备注：middleware 的类型为数组</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token operator">&lt;</span>StoreProvider store<span class="token operator">=</span><span class="token punctuation">{</span>store<span class="token punctuation">}</span> middleware<span class="token operator">=</span><span class="token punctuation">{</span><span class="token punctuation">[</span>log<span class="token punctuation">]</span><span class="token punctuation">}</span><span class="token operator">&gt;</span>
+  
+<span class="token operator">&lt;</span><span class="token operator">/</span>StoreProvider<span class="token operator">&gt;</span>
+</code></pre></div><h2 id="_7，loading"><a href="#_7，loading" class="header-anchor">#</a> 7，loading</h2> <div class="language-js extra-class"><pre class="language-js"><code><span class="token comment">// 需要引入loading中间件</span>
+<span class="token keyword">import</span> loading <span class="token keyword">from</span> <span class="token string">'think-react-store/middlewares/loading'</span>
+
+<span class="token comment">// 配置</span>
+<span class="token operator">&lt;</span>StoreProvider store<span class="token operator">=</span><span class="token punctuation">{</span>store<span class="token punctuation">}</span> middleware<span class="token operator">=</span><span class="token punctuation">{</span><span class="token punctuation">[</span>loading<span class="token punctuation">]</span><span class="token punctuation">}</span><span class="token operator">&gt;</span>
+  
+<span class="token operator">&lt;</span><span class="token operator">/</span>StoreProvider<span class="token operator">&gt;</span>
+
+<span class="token comment">// 使用</span>
+<span class="token keyword">const</span> <span class="token function-variable function">mapState</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token parameter"><span class="token punctuation">{</span>user<span class="token operator">:</span><span class="token punctuation">{</span>id<span class="token punctuation">,</span> name<span class="token punctuation">}</span><span class="token punctuation">,</span> loading<span class="token punctuation">}</span></span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">(</span><span class="token punctuation">{</span>
+  id<span class="token punctuation">,</span>
+  name<span class="token punctuation">,</span>
+  loading
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment">// 一般 loading 只需要异步函数中使用</span>
+<span class="token operator">&lt;</span>p<span class="token operator">&gt;</span>loading<span class="token operator">-</span>setNameAsync<span class="token operator">-</span><span class="token operator">&gt;</span><span class="token punctuation">{</span>props<span class="token punctuation">.</span>loading<span class="token punctuation">.</span>user<span class="token punctuation">.</span>setNameAsync <span class="token operator">?</span> <span class="token operator">&lt;</span>span<span class="token operator">&gt;</span><span class="token boolean">true</span><span class="token operator">&lt;</span><span class="token operator">/</span>span<span class="token operator">&gt;</span> <span class="token operator">:</span> <span class="token operator">&lt;</span>span<span class="token operator">&gt;</span><span class="token boolean">false</span><span class="token operator">&lt;</span><span class="token operator">/</span>span<span class="token operator">&gt;</span><span class="token punctuation">}</span><span class="token operator">&lt;</span><span class="token operator">/</span>p<span class="token operator">&gt;</span>
+</code></pre></div><h2 id="_8，使用缓存（将-model-的数据缓存到-localstorage-里面）"><a href="#_8，使用缓存（将-model-的数据缓存到-localstorage-里面）" class="header-anchor">#</a> 8，使用缓存（将 model 的数据缓存到 localStorage 里面）</h2> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">import</span> cache <span class="token keyword">from</span> <span class="token string">'think-react-store/middlewares/cache'</span><span class="token punctuation">;</span>
+
+<span class="token operator">&lt;</span>StoreProvider 
+  store<span class="token operator">=</span><span class="token punctuation">{</span>store<span class="token punctuation">}</span> 
+  middleware<span class="token operator">=</span><span class="token punctuation">{</span><span class="token punctuation">[</span>cache<span class="token punctuation">]</span><span class="token punctuation">}</span>
+  cache<span class="token operator">=</span><span class="token punctuation">{</span><span class="token punctuation">[</span><span class="token string">'user'</span><span class="token punctuation">]</span><span class="token punctuation">}</span>
+<span class="token operator">&gt;</span>
+    
+<span class="token operator">&lt;</span><span class="token operator">/</span>StoreProvider<span class="token operator">&gt;</span>
+</code></pre></div><p>配置 cache 属性，cache 的值为数组，元素是 model 的名称，如果数组为空则不缓存数据。数据被缓存到 localStorage 里面。</p> <p>ps：如果在使用过程中遇到什么问题/或者有改进的意见，欢迎👏在 <a href="https://github.com/cpagejs/think-react-store/issues" target="_blank" rel="noopener noreferrer">issues<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a> 里面交流！欢迎🌟！</p></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/think-react-store/guide.html" class="prev">
+        简介
+      </a></span> <!----></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/think-react-store/assets/js/app.73607b1a.js" defer></script><script src="/think-react-store/assets/js/2.2df53de2.js" defer></script><script src="/think-react-store/assets/js/7.d42e94c4.js" defer></script>
+  </body>
+</html>
